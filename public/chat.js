@@ -7,7 +7,7 @@ const send = document.querySelector("button");
 // const host = "http://localhost:8080";
 // const clientSocket = io.connect("https://real-time-chat-with-socket.herokuapp.com/");
 // the host url on render
-const clientSocket = io.connect("https://rtc-ja2r.onrender.com");
+const clientSocket = io.connect("https://rtc-5qgy.onrender.com");
 
 send.addEventListener("click", function(e){
     if (handle.value && message.value){
